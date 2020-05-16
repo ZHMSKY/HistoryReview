@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todayhistory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml
+10    <!-- 网络请求权限 -->
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- 内存写入请求 -->
+11-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:8:5-26:19
+15        android:name="com.example.todayhistory.common.UniteApp"
+15-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:9:9-40
+16        android:allowBackup="true"
+16-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\张洪铭\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/calendar"
+19-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:11:9-40
+20        android:label="@string/app_name"
+20-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:12:9-41
+21        android:networkSecurityConfig="@xml/http_set"
+21-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:13:9-54
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:16:9-40
+26        <activity android:name="com.example.todayhistory.HistoryDescribeActivity" />
+26-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:17:9-70
+26-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:17:19-58
+27        <activity android:name="com.example.todayhistory.HistoryActivity" />
+27-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:18:9-53
+27-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:18:19-50
+28        <activity android:name="com.example.todayhistory.MainActivity" >
+28-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:19:9-25:20
+28-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:19:19-47
+29            <intent-filter>
+29-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:21:17-69
+30-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:23:17-77
+32-->D:\Android projects\TodayHistory\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
